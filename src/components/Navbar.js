@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="font-semibold text-2xl text-black space-x-5">
             <NavLink 
               to="/Home" 
-              className={({ isActive }) => isActive ? 'underline' : 'hover:underline'}
+              className={({ isActive }) => isActive ? 'underline border' : 'hover:underline'}
             >
               Home
             </NavLink>
